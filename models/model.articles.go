@@ -10,8 +10,8 @@ type Article struct {
 
 // TODO: convert to loadArticle to articleList and saveArticle (append to articleList)
 var ArticleList = []Article{
-	Article{ID: 1, Title: "Article 1", Content: "Content for article one"},
-	Article{ID: 2, Title: "Article 2", Content: "Content for article two"},
+	Article{ID: 1, Title: "Article 1", Content: "Usage Queue"},
+	Article{ID: 2, Title: "Article 2", Content: "Build Queue"},
 }
 
 func GetAllArticles() []Article {
